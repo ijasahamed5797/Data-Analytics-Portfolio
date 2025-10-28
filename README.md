@@ -1,33 +1,38 @@
 # Data Analytics Portfolio
 
 ## About Me
-MBA graduate transitioning into Data Analytics. Currently upskilling in data analysis, visualization, and business intelligence tools.
+MBA graduate with expertise in business strategy, transitioning into Data Analytics. Skilled in transforming complex data into actionable business insights through analytical modeling and data visualization.
 
 ## Technical Skills
-- **Programming:** Python, SQL
-- **Data Analysis:** Pandas, NumPy, Statistical Analysis
-- **Data Visualization:** Matplotlib, Seaborn, Excel
-- **Tools:** Jupyter Notebook, Git, GitHub
-- **Business Domain:** Market Analysis, Financial Analysis, Business Intelligence
+- **Programming**: Python, SQL
+- **Data Analysis**: Pandas, NumPy, Statistical Analysis, Data Wrangling
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, Excel, PowerPoint
+- **Tools**: Jupyter Notebook, Git, GitHub, MySQL
+- **Business Analytics**: Market Analysis, Financial Modeling, Business Intelligence, Strategic Planning
 
 ## Projects
 
-### 📊 [Apple Stock Price Analysis](link-to-your-apple-project)
-- **Description:** Comprehensive analysis of Apple's stock performance using Python
-- **Skills:** Time-series analysis, Data visualization, Financial analysis
-- **Tools:** Python, Pandas, Matplotlib
+### 📈 Apple Stock Price Analysis
+**Tools:** Python, Pandas, Matplotlib, Seaborn, yfinance  
+**Description:** Comprehensive analysis of Apple's stock performance, trend patterns, and volatility metrics to derive investment insights.  
+**Key Features:**
+- Historical price trend analysis
+- Moving average calculations
+- Volatility and risk assessment
+- Trading volume analysis
+- Comparative performance metrics
 
-### 🔍 [Sales Performance Dashboard](link-to-sales-dashboard-project)
-- **Description:** Interactive dashboard analyzing sales data across regions and product categories
-- **Skills:** Data cleaning, Dashboard creation, Business insights
-- **Tools:** Excel, Pivot Tables, Charts
-
-
+[View Project](./Apple-Stock-Analysis/Apple_Stock_Analysis.ipynb)
 
 ## Education
-- **MBA** - [University of Hertfordshire], [2023]
-- **Data Analytics Certification** - [Data Science and Analytics], [2026]
+- **MBA** - Master of Business Administration
+- Currently pursuing Data Analytics certification
 
-## Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/ijasahamedshajahan)
-- [Email](ijasahamed5797@gmail.com)
+## Contact
+- **LinkedIn**: [https://www.linkedin.com/in/ijasahamedshajahan]
+- **Email**: ijasahamed5797@gmail.com
+- **GitHub**: [https://github.com/ijasahamed5797](https://github.com/ijasahamed5797)
+
+---
+
+*This portfolio showcases my journey in data analytics and demonstrates my ability to solve business problems through data-driven approaches.*
