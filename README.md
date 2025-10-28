@@ -24,6 +24,18 @@ MBA graduate with expertise in business strategy, transitioning into Data Analyt
 
 [View Project](./Apple-Stock-Analysis/Apple_Stock_Analysis.ipynb)
 
+
+### 🗃️ Restaurant Sales Analysis - SQL Case Study
+**Tools:** MySQL, SQL Queries, Window Functions  
+**Description:** Comprehensive analysis of restaurant customer behavior, sales patterns, and membership insights using advanced SQL queries.  
+**Key Features:**
+- Customer spending and visit frequency analysis
+- Product popularity and trend identification
+- Membership impact assessment
+- Loyalty points calculation system
+
+[View Project](./SQL-Case-Study-Restaurant/restaurant_case_study.sql)
+
 ## Education
 - **MBA** - Master of Business Administration
 - Currently pursuing Data Analytics certification
