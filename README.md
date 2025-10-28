@@ -22,17 +22,12 @@ MBA graduate transitioning into Data Analytics. Currently upskilling in data ana
 - **Skills:** Data cleaning, Dashboard creation, Business insights
 - **Tools:** Excel, Pivot Tables, Charts
 
-### 📈 [Customer Segmentation Analysis](link-to-customer-segmentation)
-- **Description:** RFM analysis and customer segmentation for targeted marketing strategies
-- **Skills:** Customer analytics, Segmentation, RFM analysis
-- **Tools:** Python, Pandas, Clustering
 
-*(Add more projects as you complete them)*
 
 ## Education
-- **MBA** - [Your University], [Year]
-- **Data Analytics Certification** - [Your Course Name], [Year]
+- **MBA** - [University of Hertfordshire], [2023]
+- **Data Analytics Certification** - [Data Science and Analytics], [2026]
 
 ## Connect with Me
-- [LinkedIn](your-linkedin-url)
-- [Email](your-email)
+- [LinkedIn](https://www.linkedin.com/in/ijasahamedshajahan)
+- [Email](ijasahamed5797@gmail.com)
