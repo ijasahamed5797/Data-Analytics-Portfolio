@@ -1,0 +1,34 @@
+# Apple Stock Price Analysis
+
+## Business Context
+As an MBA graduate exploring data analytics, this project demonstrates how technical skills can be applied to financial market analysis and investment insights.
+
+## Project Overview
+Comprehensive analysis of Apple Inc. (AAPL) historical stock data to identify trends, patterns, and potential investment insights using Python data analysis techniques.
+
+## Key Business Questions
+1. How has Apple's stock performed over different time periods?
+2. What are the key volatility patterns and risk factors?
+3. How do trading volumes correlate with price movements?
+4. What insights can inform investment decisions?
+
+## Analysis Performed
+- **Descriptive Analytics:** Summary statistics and trend analysis
+- **Time-series Analysis:** Price movement patterns and seasonality
+- **Risk Assessment:** Volatility and drawdown analysis
+- **Correlation Analysis:** Volume vs. Price relationships
+
+## Tools & Technologies
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Jupyter Notebook**
+- **Financial Data Analysis**
+
+## Key Insights
+- Identified long-term growth trends and short-term volatility patterns
+- Analyzed trading volume impact on price stability
+- Provided data-driven insights for investment strategy
+
+## Files
+- `apple_stock_analysis.ipynb` - Complete analysis notebook
+- `AAPL.csv` - Historical stock data
+- `README.md` - Project documentation
