@@ -1,4 +1,4 @@
-# Data Analytics Portfolio
+# Data Science Portfolio
 
 ## About Me
 MBA graduate with expertise in business strategy, transitioning into Data Analytics. Skilled in transforming complex data into actionable business insights through analytical modeling and data visualization.
