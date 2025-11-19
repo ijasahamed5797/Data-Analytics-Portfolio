@@ -75,11 +75,14 @@ The full analysis is available in the notebook:
 Olympics-EDA/
 │── Olympics EDA.ipynb     # Main analysis notebook
 │── README.md              # Project documentation
----
+```
 
 ## 7. Conclusion
 
 This project provides a detailed exploration of Olympic history by analyzing major trends in participation, gender inclusion, and country-level performance. It demonstrates skills in data cleaning, exploratory analysis, visualization, and interpretation—key components of practical data science workflows.
+
+Future enhancements may include predictive modeling, clustering of athlete profiles, or the development of an interactive dashboard to present insights more dynamically.
+
 
 Future enhancements may include predictive modeling, clustering of athlete profiles, or the development of an interactive dashboard to present insights more dynamically.
 
