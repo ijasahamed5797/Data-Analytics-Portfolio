@@ -24,6 +24,21 @@ MBA graduate with expertise in business strategy, transitioning into Data Analyt
 
 [View Project](./Apple-Stock-Analysis/Apple_Stock_Analysis.ipynb)
 
+### 🏅 Olympics Data Analysis (EDA)
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
+**Description:** Exploratory data analysis of historical Olympic Games to uncover trends in athlete participation, gender representation, medal distribution, and country-level performance.  
+**Key Features:**
+
+- Long-term athlete participation trends  
+- Gender representation analysis across decades  
+- Country-wise medal distribution patterns  
+- Sport-wise event popularity insights  
+- Visualization-driven interpretation of Olympic history  
+
+[View Project](./Olympics-EDA)
+
+
 
 ### 🗃️ Restaurant Sales Analysis - SQL Case Study
 **Tools:** MySQL, SQL Queries, Window Functions  
