@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / Secrets
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# Uploaded datasets
+*.csv
+*.xlsx
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
