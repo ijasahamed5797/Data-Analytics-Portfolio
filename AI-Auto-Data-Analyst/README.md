@@ -67,50 +67,7 @@ AI-Auto-Data-Analyst/
 
 ---
 
-## ▶️ Run Locally
 
-```bash
-pip install -r requirements.txt
-streamlit run app_streamlit.py
-
-Made with ❤️ using Streamlit + Gemini
-
-4. Scroll down → **Commit new file**
-
-Your new project folder will appear.
-
----
-
-# ✅ STEP 2 — Upload Your Project Files
-
-Now add all your files inside:
-
-AI-Auto-Data-Analyst/
-
-Specifically upload:
-
-- `app_streamlit.py`
-- `config.py`
-- `pipeline/` folder
-- `requirements.txt`
-
-Do it by:
-
-📁 Open folder → **Add file → Upload files**
-
-Upload everything except `.env`.
-
----
-
-# ✅ STEP 3 — Update the MAIN README (Home Page)
-
-Open the main `README.md` in root of repo:
-
-👉 https://github.com/ijasahamed5797/Data-Science-Portfolio/blob/main/README.md
-
-Click **Edit**, then under “Projects” add this block:
-
-```markdown
 ### 🤖 AI Auto Data Analyst
 **Tools:** Python, Pandas, Streamlit, Matplotlib, Seaborn, Google Gemini API  
 **Description:** An AI-powered tool that performs automated EDA, generates insights, produces visualizations on demand, and answers natural-language questions about uploaded CSV datasets.
