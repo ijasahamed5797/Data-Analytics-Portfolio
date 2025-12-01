@@ -47,6 +47,7 @@ And the agent builds the code + plot.
 ---
 
 ## 📁 Project Structure
+```
 
 AI-Auto-Data-Analyst/
 ├── app_streamlit.py
@@ -62,7 +63,7 @@ AI-Auto-Data-Analyst/
 ├── requirements.txt
 └── README.md
 
-
+```
 
 ---
 
