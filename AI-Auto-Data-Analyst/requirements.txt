@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+python-dotenv
+google-generativeai
+protobuf
+jsonschema
+altair
