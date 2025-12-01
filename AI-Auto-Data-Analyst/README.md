@@ -171,6 +171,7 @@ It reduces analysis time, improves insights, and provides an interactive ML-powe
 
 ---
 
-[View Project](./AI-Auto-Data-Analyst)
+[View Project](https://github.com/ijasahamed5797/Data-Science-Portfolio/tree/main/AI-Auto-Data-Analyst)
+
 
 Made with ❤️ using Streamlit + Gemini  
