@@ -1,82 +1,174 @@
 # 🤖 AI Auto Data Analyst
 
-An AI-powered data analysis tool built using **Streamlit + Gemini + Pandas**.  
-Upload any CSV and the AI automatically:
+## 📌 Project Overview
+AI Auto Data Analyst is an intelligent end-to-end data exploration tool built using **Python**, **Streamlit**, **Pandas**, and **Google Gemini AI**.  
+It automates manual EDA workflows by generating insights, visualizations, and Python code — all from a natural language question.
 
-- Profiles your dataset  
-- Generates charts on request  
-- Creates insights using Gemini  
-- Answers questions about your data  
-- Converts natural language → executable pandas code  
-- Handles case-insensitive and plural/singular queries  
+This project allows users to upload **any CSV file**, and the system automatically:
+- Profiles the dataset  
+- Creates smart visualizations  
+- Generates analytical insights  
+- Answers questions using natural language  
+- Produces plots on demand (bar, line, pie, trend, etc.)  
+- Executes the generated code and returns the result  
 
 ---
 
-## 🚀 Features
+## 🎯 Problem Statement
+Exploratory Data Analysis (EDA) is time-consuming, repetitive, and requires coding skills.  
+Many business users struggle to understand data without technical support.
 
-### 🔍 Automated EDA
-- Dataset summary  
-- Numeric & categorical column detection  
-- Histograms, boxplots, bar charts  
-- Correlation heatmap  
+This tool solves that by:
+- Turning English questions into Python code  
+- Auto-generating visuals  
+- Providing interpretable insights instantly  
+- Eliminating manual analysis work  
 
-### 🧠 AI Insights (Gemini)
-- Auto-generated written insights  
-- Smart suggestions  
-- Pattern detection  
+---
 
-### 💬 Natural Language Data Queries
+## 🔄 System Pipeline (How It Works)
+
+### **1. Data Ingestion**
+- Loads any CSV uploaded by the user  
+- Detects column types: numeric vs categorical  
+- Handles missing/duplicate data  
+- Stores the dataframe for downstream operations  
+
+### **2. Automated EDA**
+- Summary statistics  
+- Outlier detection  
+- Histograms & boxplots  
+- Correlation heatmaps  
+- Categorical distributions  
+
+### **3. AI-powered Insights (Gemini)**
+Gemini is prompted with a structured summary and produces:
+- Key dataset observations  
+- Trend detection  
+- Outlier discussion  
+- Business-ready insights  
+
+### **4. Natural Language Query → Python Code**
+User example:  
+> “In which region were laptops sold the most?”
+
+The agent:
+1. Cleans the query (case-insensitive, singular/plural handling)  
+2. Understands intent  
+3. Generates Python code  
+4. Executes the code  
+5. Returns the answer  
+
+### **5. AI Plot Generator (Using Gemini)**
+User example:  
+> “Create a bar chart of revenue by product”
+
+The model returns executable code to:
+- Build the visualization  
+- Display the chart  
+- Handle errors safely  
+
+### **6. Streamlit Frontend**
+- Smooth UI  
+- Supports real-time code execution  
+- Displays insights, EDA visualizations, queries, and charts  
+
+---
+
+## 🧩 Technologies Used
+
+### **Backend**
+- Python 3.x  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+
+### **AI**
+- Google Gemini 1.5 (Text + Code)  
+- Prompt engineering for query translation & plotting  
+
+### **Frontend**
+- Streamlit  
+
+### **DevOps / Other**
+- Virtual environment  
+- Requirements file  
+- GitHub project structure  
+
+---
+
+## 🚀 Key Features
+
+### 🔍 **Automated EDA**
+- Summary metrics  
+- Histograms  
+- Boxplots  
+- Correlation matrix  
+- Category counts  
+
+### 🧠 **AI-powered Insights**
+- Gemini explains data trends  
+- Highlights correlations  
+- Points out interesting observations  
+
+### 💬 **Natural Language Q&A**
 Ask:
-> "Which region sold the most laptops?"  
-> "Plot revenue trend by month"  
+- “Which region has the highest revenue?”  
+- “How many laptops were sold in the North?”  
+- “Show me trend of monthly sales.”  
 
 The system generates:
-- The pandas code  
-- Executes it safely  
-- Returns the answer + chart  
+- Clean Python code  
+- Executes it  
+- Shows result instantly  
 
-### 📊 AI Chart Generation
-Ask for:
-- Line chart  
+### 📊 **AI-Generated Visualizations**
 - Bar chart  
+- Line chart  
 - Pie chart  
-- Trend graph  
+- Trend chart  
 - Category comparison  
-And the agent builds the code + plot.
+
+### 🔤 **Smart Query Handling**
+- Case-insensitive  
+- Singular/plural friendly  
+- Works with ANY dataset  
 
 ---
 
 ## 📁 Project Structure
+
 ```
-
 AI-Auto-Data-Analyst/
-├── app_streamlit.py
-├── config.py
-├── pipeline/
-│   ├── data_ingestion.py
-│   ├── profiling.py
-│   ├── visualization.py
-│   ├── llm_insights.py
-│   ├── qa_agent.py
-│   ├── plot_agent.py
-├── .env  (not included)
-├── requirements.txt
-└── README.md
-
+│── app_streamlit.py
+│── config.py
+│── pipeline/
+│ ├── data_ingestion.py
+│ ├── profiling.py
+│ ├── visualization.py
+│ ├── llm_insights.py
+│ ├── qa_agent.py
+│ ├── plot_agent.py
+│── requirements.txt
+│── README.md
+│── .env (not included)
 ```
 
 ---
 
+## ▶️ Run Locally
 
-### 🤖 AI Auto Data Analyst
-**Tools:** Python, Pandas, Streamlit, Matplotlib, Seaborn, Google Gemini API  
-**Description:** An AI-powered tool that performs automated EDA, generates insights, produces visualizations on demand, and answers natural-language questions about uploaded CSV datasets.
+```
+pip install -r requirements.txt
+streamlit run app_streamlit.py
+```
 
-**Key Features:**
-- Auto EDA (summary, histograms, correlations, outliers)
-- AI-powered insights via Gemini
-- Natural language to pandas query execution
-- AI-based chart creation (line, bar, pie, trend, category)
-- Case-insensitive and plural/singular query handling
+---
 
-[View Project](./AI-Auto-Data-Analyst)
+## 📌 Summary
+AI Auto Data Analyst combines **automation + AI + visualization** to simplify data exploration for both analysts and non-technical users.  
+It reduces analysis time, improves insights, and provides an interactive ML-powered data experience.
+
+---
+
+Made with ❤️ using Streamlit + Gemini  
