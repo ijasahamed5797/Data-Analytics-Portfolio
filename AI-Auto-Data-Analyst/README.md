@@ -49,18 +49,19 @@ And the agent builds the code + plot.
 ## 📁 Project Structure
 
 AI-Auto-Data-Analyst/
-│── app_streamlit.py
-│── config.py
-│── pipeline/
-│ ├── data_ingestion.py
-│ ├── profiling.py
-│ ├── visualization.py
-│ ├── llm_insights.py
-│ ├── qa_agent.py
-│ ├── plot_agent.py
-│── .env (not included)
-│── requirements.txt
-│── README.md
+├── app_streamlit.py
+├── config.py
+├── pipeline/
+│   ├── data_ingestion.py
+│   ├── profiling.py
+│   ├── visualization.py
+│   ├── llm_insights.py
+│   ├── qa_agent.py
+│   ├── plot_agent.py
+├── .env  (not included)
+├── requirements.txt
+└── README.md
+
 
 
 ---
