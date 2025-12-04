@@ -114,10 +114,16 @@ stock-price-forecasting/
 
 ## 📸 Screenshots
 - Streamlit Homepage
+  <img src="assets/Interface.png" width="800">
 
-- Forecast Visualization
+- LSTM Prediction
+  <img src="assets/LSTM.png" width="800">
 
-- LSTM Prediction Example
+- GRU Prediction
+  <img src="assets/GRU.png" width="800">
+
+- Model Comparision
+  <img src="assets/ModelComparision.png" width="800">
 
 ## 🔮 Future Enhancements
 
