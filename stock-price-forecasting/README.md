@@ -123,7 +123,7 @@ stock-price-forecasting/
   <img src="assets/GRU.png" width="800">
 
 - Model Comparision
-  <img src="assets/ModelComparision.png" width="800">
+  <img src="assets/Model.png" width="800">
 
 ## 🔮 Future Enhancements
 
