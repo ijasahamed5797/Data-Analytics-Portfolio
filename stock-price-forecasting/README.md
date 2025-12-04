@@ -1,5 +1,28 @@
 # 📈 Stock Price Forecasting
 
+<p align="left">
+
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white" alt="Python">
+
+  <!-- Streamlit -->
+  <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit&logoColor=white" alt="Streamlit">
+
+  <!-- Machine Learning -->
+  <img src="https://img.shields.io/badge/ML-Models-green?logo=scikitlearn&logoColor=white" alt="ML">
+
+  <!-- Deep Learning -->
+  <img src="https://img.shields.io/badge/Deep%20Learning-LSTM%20%7C%20GRU%20%7C%20CNN--LSTM-orange?logo=tensorflow&logoColor=white" alt="DL">
+
+  <!-- Status -->
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
+
+</p>
+
+
 ### End-to-end Time Series Forecasting using Python, Machine Learning, Deep Learning & a real-time Streamlit Application.
 
 ---
