@@ -1,83 +1,93 @@
-📈 Stock Price Forecasting Project
+# 📈 Stock Price Forecasting
 
-An end-to-end Time Series Forecasting solution using multiple ML & Deep Learning models, combined with an interactive Streamlit application for real-time stock analysis and prediction.
+### End-to-end Time Series Forecasting using Python, Machine Learning, Deep Learning & a real-time Streamlit Application.
 
-🚀 Project Overview
+---
 
-This project demonstrates a complete workflow of stock market prediction — from EDA, feature engineering, and model development, to deployment of an interactive Streamlit app.
+## 📌 Project Overview
 
-It includes:
+This project implements a complete stock market forecasting workflow — from **data extraction and exploratory analysis** to **model development and interactive deployment**.
 
-Exploratory Data Analysis
+It enables users to:
 
-Traditional Time Series Models
+- Analyze historical stock price trends  
+- Compare multiple forecasting models  
+- Generate future price predictions  
+- Visualize evaluation metrics  
+- Use a Streamlit web app for real-time analysis  
+- Receive automated email alerts when price thresholds are crossed  
 
-Deep Learning Forecasting Models
+This project replaces my earlier *Apple Stock Analysis* and serves as a full portfolio-grade time-series forecasting solution.
 
-Comparison across multiple architectures
+---
 
-A real-time Streamlit dashboard
+## 🎯 Problem Statement
 
-Automated email alerts for stock price thresholds
+Stock market prediction is challenging due to volatility and noise. Analysts need tools that allow them to:
 
-This project replaces my earlier Apple Stock Analysis project and serves as a full portfolio-grade demonstration of time-series modeling.
+- Explore price behavior  
+- Apply multiple forecasting techniques  
+- Evaluate and compare models  
+- Predict future movements  
+- Use an interactive dashboard  
 
-🧠 Models Implemented
+This project provides all these capabilities in one unified workflow.
 
-This repository includes notebooks for multiple forecasting approaches:
+---
 
-📌 Statistical Models
+## 🧠 Modeling Approaches
 
-ARIMA / SARIMA
+### **Statistical Models**
+- ARIMA  
+- SARIMA  
+- Prophet  
 
-Prophet (Facebook Prophet)
+### **Deep Learning Models**
+- LSTM (Single & Multi-layer)  
+- GRU  
+- CNN–LSTM Hybrid  
 
-📌 Deep Learning Models
+### **Baseline Models**
+- Naïve Forecast  
+- Moving Average  
 
-LSTM (Single-layer & Multi-layer)
+Each model includes training, validation, forecasting, and visual evaluation.
 
-GRU Model
+---
 
-CNN-LSTM Hybrid Model
+## 📚 Notebooks Included
 
-📌 Benchmark
+| Notebook | Description |
+|---------|-------------|
+| `01_data_eda.ipynb` | Exploratory Data Analysis |
+| `02_arima_modelling.ipynb` | ARIMA model |
+| `03_lstm_modelling.ipynb` | LSTM forecasting |
+| `04_multistock_comparison.ipynb` | Multi-stock comparison |
+| `05_prophet_model.ipynb` | Prophet model |
+| `06_cnn_lstm_modelling.ipynb` | CNN-LSTM hybrid |
+| `07_gru_modelling.ipynb` | GRU model |
 
-Naïve Forecast
+---
 
-Moving Average Forecast
+## 🖥️ Streamlit Application
 
-Each notebook includes training, evaluation, visualization, and forecasting.
+The application provides:
 
-🧪 Notebooks Included
-Notebook	Description
-01_data_eda.ipynb	Data collection + exploratory data analysis
-02_arima_modelling.ipynb	ARIMA model tuning & forecasting
-03_lstm_modelling.ipynb	LSTM forecasting model
-04_multistock_comparison.ipynb	Compare predictions across several tickers
-05_prophet_model.ipynb	Prophet forecasting
-06_cnn_lstm_modelling.ipynb	CNN + LSTM hybrid neural network
-07_gru_modelling.ipynb	GRU model for forecasting
+- Real-time stock data from Yahoo Finance  
+- Interactive visualizations  
+- Forecasting using ML/DL models  
+- Email alerts  
+- Clean, responsive UI  
 
-All notebooks are organized inside the notebooks/ folder.
+### Run the app locally:
 
-🖥️ Streamlit Application
-
-The app/ folder contains a fully functional Streamlit dashboard that includes:
-
-✔ Downloading real-time stock data from Yahoo Finance
-✔ Interactive price visualizations
-✔ Model-driven forecasting
-✔ Email alert system for price triggers
-✔ Clean UI for user interaction
-
-To run the app locally:
 ```
 cd app
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-📁 Project Folder Structure
+📁 Folder Structure
 
 ```
 stock-price-forecasting/
@@ -97,54 +107,30 @@ stock-price-forecasting/
 │   ├── 06_cnn_lstm_modelling.ipynb
 │   ├── 07_gru_modelling.ipynb
 │
+├── assets/      ← store images/screenshots here
 │
 └── README.md
 ```
 
-📦 Installation
+## 📸 Screenshots
+- Streamlit Homepage
 
-Clone the repository:
-```
-git clone https://github.com/ijasahamed5797/Data-Science-Portfolio.git
-cd stock-price-forecasting
-```
-Install dependencies for the Streamlit app:
-```
-pip install -r app/requirements.txt
-```
+- Forecast Visualization
 
-📊 Forecast Examples
+- LSTM Prediction Example
 
+## 🔮 Future Enhancements
 
+- Ensemble forecasting
 
-📬 Email Alert System
+- Sentiment-driven models
 
-The project includes an optional script (email_alert.py) that sends automated notifications when a stock crosses a price threshold.
+- Hyperparameter tuning (Optuna)
 
-You can integrate it directly into the Streamlit app or run it as a standalone background script.
+- Deployment on Streamlit Cloud / HuggingFace Spaces
 
-🌟 Future Improvements
+- Docker containerization
 
-Add hyperparameter tuning via Optuna
+## ✔️ Conclusion
 
-Deploy Streamlit app to Streamlit Cloud
-
-Add ensemble forecasting
-
-Integrate sentiment analysis from financial news
-
-Add Docker support
-
-📝 Conclusion
-
-This project provides a complete, end-to-end demonstration of:
-
-Data engineering
-
-Classical and modern time-series modeling
-
-Neural networks for forecasting
-
-Interactive application deployment
-
-It highlights practical Data Science skills applied to real-world forecasting problems.
+This project showcases an end-to-end time-series forecasting pipeline using classical ML, deep learning architectures, and interactive deployment — making it a strong real-world Data Science portfolio project.
