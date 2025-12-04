@@ -1,5 +1,4 @@
 # 📈 Stock Price Forecasting
-
 <p align="left">
 
   <!-- Python -->
